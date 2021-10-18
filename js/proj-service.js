@@ -15,7 +15,7 @@ function createProjs() {
       'Book-Shop',
       'E-commerce',
       'E-commerce for books',
-      '/proj/book-shop/book-shop.jpg',
+      './proj/book-shop/book-shop.jpg',
       '',
       ['book', 'E-commerce']
     ),
@@ -24,7 +24,7 @@ function createProjs() {
       'Guess Me',
       'Guess Me',
       'Online Game',
-      '/proj/EX-GuessMe/guessme.jpg',
+      './proj/EX-GuessMe/guessme.jpg',
       '',
       ['game', 'guess']
     ),
@@ -33,7 +33,7 @@ function createProjs() {
       'Mine Sweeper',
       'find all the mines!',
       'online game for kids',
-      '/proj/minesweeper/minesweeper.jpg',
+      './proj/minesweeper/minesweeper.jpg',
       '',
       ['online game']
     ),
@@ -42,7 +42,7 @@ function createProjs() {
       'Pacman',
       'eat all the food!',
       'online game for everyone',
-      '/proj/pacman/pacman.jpg',
+      './proj/pacman/pacman.jpg',
       '',
       ['pacman', 'eat']
     ),
@@ -51,7 +51,7 @@ function createProjs() {
       'ToDo',
       'toDo App',
       'Organize your tasks',
-      '/proj/proj-todos/proj-todos.jpg',
+      './proj/proj-todos/proj-todos.jpg',
       '',
       ['todo', 'tasks']
     ),
@@ -60,7 +60,7 @@ function createProjs() {
       'Safe Content',
       'Safe Content',
       'Do something',
-      '/proj/safe-content/safe-content.jpg',
+      './proj/safe-content/safe-content.jpg',
       '',
       ['safe']
     ),
