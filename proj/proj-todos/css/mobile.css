@@ -1,0 +1,24 @@
+.main-container {
+    flex-direction: column;
+    height: 80vh;
+}
+
+.filter-sort-container {
+    height: 20vh;
+        margin-bottom: 1%;
+
+}
+
+.todo-container {
+    height: 50vh;
+        margin-bottom: 1%;
+
+}
+
+.input-container {
+    height: 20vh;
+}
+
+ul > li {
+    font-size: 25px;
+   }

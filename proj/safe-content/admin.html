@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Admin</title>
+</head>
+<body onload="init()">
+
+    <h1>Hi Admin</h1>
+    <button onclick="logOut()">LogOut</button>
+
+    <section class="sort-table">
+        <h2>Sort table</h2>
+        <select onchange="onSetSort(this.value)">
+            <option value="name">name</option>
+            <option value="lastlogin">last Login</option>
+        </select>
+    </section>
+
+    <section class="gallery">
+        <select onchange="onSetGallery(this.value)">
+            <option value="table">table</option>
+            <option value="gallery">Gallery</option>
+        </select>
+    </section>
+    <div class="table-container"></div>
+    <div class="gallery-container"></div>
+    <script src="./user-controller.js"></script>
+    <script src="./js/services/utils.service.js"></script>
+    <script src="./js/services/storage.service.js"></script>
+    <script src="./main-admin.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>

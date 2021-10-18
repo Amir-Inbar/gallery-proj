@@ -1,0 +1,25 @@
+.logout-section {
+    display: none;
+}
+
+.main-table {
+    border: 3px solid blacks;
+    height: 300px;
+    width: 500px;
+    text-align: center;
+}
+tr, td {
+    border: 1px solid gray;
+}
+
+.sub-gallery {
+    width: 200px;
+    height: 100px;
+    margin: 5px;
+    padding: 10px;
+    display: inline-block;
+    border: 1px solid black;
+}
+span {
+    display: block;
+}

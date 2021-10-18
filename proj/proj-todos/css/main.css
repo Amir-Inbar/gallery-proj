@@ -1,0 +1,81 @@
+@import "./mobile.css" screen and (max-width:760px);
+@import "./tablet.css" screen and (min-width:760px) and (max-width:980px);
+@import "./desktop.css" screen and (min-width:980px);
+
+body {
+    background-color: lightblue;
+    font-size: 1rem;
+}
+
+.main-title {
+    text-align: center;
+    text-decoration: underline;
+}
+.done {
+    text-decoration: line-through;
+}
+
+.todo-filter {
+    background-color: lightskyblue;
+    text-align: center;
+}
+.todo-sort {
+    background-color: lightskyblue;
+    text-align: center;
+}
+
+.todo-stat span {
+    color: lightskyblue
+}
+
+.main-container {
+    background-color: lightsteelblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.filter-sort-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.todo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.input-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.filter-sort-container {
+    background-color: lightskyblue;
+    border: 7px solid lightseagreen;
+    width: 35vh;
+}
+
+.input-container {
+    background-color: lightskyblue;
+    border: 7px solid lightseagreen;
+    width: 35vh;
+    
+}
+.todo-container {
+    border: 7px solid lightseagreen;
+    background-color: lightskyblue;
+    width: 35vh;
+}
+button {
+    background-color: lightcyan;
+    border-radius: 20%;
+    box-shadow:9px 4px 13px -8px rgba(0,0,0,0.9);
+    color: lightseagreen;
+    font-weight: bold;
+}
+

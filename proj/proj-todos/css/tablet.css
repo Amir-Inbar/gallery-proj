@@ -1,0 +1,21 @@
+.main-container {
+    flex-direction: row;
+    height: 80vh;
+    background-color: #fff;
+}
+
+.filter-sort-container {
+    height: 30vh;
+}
+
+.todo-container {
+    height: 30vh;
+}
+
+.input-container {
+    height: 30vh;
+}
+
+ul > li {
+    font-size: 20px;
+   }

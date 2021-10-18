@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>LogIn</title>
+</head>
+<body>
+    <div class="logout-section">
+        <h1 class="after-login"></h1>
+        <img class="topsecret-img" src="./img/secretimg.png">
+        <button onclick="logIn()">Log Out</button>
+    </div>
+    
+    <div class="login-section">
+        <h1>Sign In!</h1>
+        <label for="username">username</label>
+        <input id="username" type="text" placeholder="Enter UserName">
+        
+        <br>
+        <br>
+        <label for="password">password</label>
+        <input id="password" type="password" placeholder="Enter password">
+        
+        <br>
+        <button onclick="logInFlow()">Login</button>
+    </div>
+
+    <script src="./user-controller.js"></script>
+    <script src="./js/services/utils.service.js"></script>
+    <script src="./js/services/storage.service.js"></script>
+    <script src="./main-admin.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>

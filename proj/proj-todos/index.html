@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todos</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body onload="onInit()">
+    <h1 class="main-title">Lets Todo</h1>
+<div class="main-container">
+    
+    <div class="filter-sort-container">
+        <section class="todo-filter">
+            <h2>Filter</h2>
+            <!-- <select onchange="onSetFilter(this.value)"> -->
+                <span class="leftCountList"></span>
+                <button value="ALL" onclick="onSetFilter(this.value)">All</button>
+                <button value="ACTIVE" onclick="onSetFilter(this.value)">Active</button>
+                <button value="DONE" onclick="onSetFilter(this.value)">Done</button>
+            <!-- </select> -->
+        </section>
+        
+        <section class="todo-sort">
+            <h2>Sort</h2>
+            <select onchange="onSetSort(this.value)">
+                <option value="txt">txt</option>
+                <option value="created">created</option>
+                <option value="importance">importance</option>
+            </select>
+        </section>
+    </div>
+
+    <div class="todo-container">
+        
+        <ul class="todo-list"></ul>
+        <span class="noTodo"></span>
+    </div>
+    
+    <div class="input-container">
+        <section>
+            <h3>Add importance</h3>
+            <input id="importInput" type="number" min="1" max="3" style="width:40px;" value="1" />
+            
+            <h3>Add Todo</h3>
+            <input id="todoInput" type="text" placeholder="What todo?" />
+            <button onclick="onAddTodo()">Add</button>
+        </section>
+    </div>
+</div>
+    
+    
+    
+    <script src="js/services/utils.service.js"></script>
+    <script src="js/services/storage.service.js"></script>
+    <script src="js/services/todo.service.js"></script>
+    <script src="js/todo-controller.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
