@@ -15,7 +15,7 @@ function createProjs() {
       'Book-Shop',
       'E-commerce',
       'E-commerce for books',
-      './proj/book-shop/book-shop.jpg',
+      '../proj/book-shop/book-shop.jpg',
       '',
       ['book', 'E-commerce']
     ),
